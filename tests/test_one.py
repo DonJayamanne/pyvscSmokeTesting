@@ -1,8 +1,7 @@
-import unittest
 import json
 import os.path
 import time
-
+import unittest
 
 with open(os.path.join('tests', 'test_discovery_delay'), 'r') as fs:
     delay = fs.readline()
