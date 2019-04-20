@@ -17,17 +17,17 @@ def getData():
         return json.load(fs)
 
 class TestThirdSuite(unittest.TestCase):
-    def test_one(self):
+    def test_one_third_suite(self):
         data = getData()
         delay_running()
         self.assertEqual(1, data[0])
 
-    def test_two(self):
+    def test_two_third_suite(self):
         data = getData()
         delay_running()
         self.assertEqual(2, data[1])
 
-    def test_three(self):
+    def test_three_third_suite(self):
         data = getData()
         delay_running()
         self.assertEqual(3, data[2])
