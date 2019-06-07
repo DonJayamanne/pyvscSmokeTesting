@@ -1,0 +1,1 @@
+open("log.log", "w").write("Hello World")
